@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   max-width: 100%;
   display: grid;
-  grid-template-columns: minmax(440px,calc((460/1280*100)*1vw)) minmax(456px, calc((484/1280*100)*1vw)); 
+  grid-template-columns: minmax(440px,calc((460/1280*100)*1vw)) minmax(456px, calc((484/1280*100)*1vw));
   grid-template-rows: auto auto auto;
   column-gap: 0px;
   row-gap: 0px;
@@ -49,18 +49,12 @@
     column-gap: 0px;
   }
 }
-  .place:last-of-type {
-    margin-bottom: 0;
-}
+
 
 
 @media screen and (max-width: 425px) {
   .place {
     max-width: calc((288/320*100)*1vw);
     margin: 0 auto 50px;
-  }
-
-  .place:last-of-type {
-    margin-bottom: 0;
   }
 }
