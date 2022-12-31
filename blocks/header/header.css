@@ -1,0 +1,39 @@
+.header {
+  
+  max-width: calc((1184/1280*100)*1vw);
+  /* max-width: 1184px; */
+  min-width: 720px;
+  /* height: 52px; */
+  display: flex;
+  margin: 0 auto min(max(48px, calc((48/1024*100)*1vw)), 56px);
+  padding: 28px 48px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: calc((928/1024*100)*1vw);
+    /* padding: 28px 24px 0; */
+    /* max-width: 928px; */
+    margin: 0 auto 48px;
+    padding: 28px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: calc((720/768*100)*1vw);
+    min-width: 0;
+    /* padding: 28px 16px 0; */
+    margin: 0 auto 48px;
+    padding: min(max(16px, calc((16/320*100)*1vw)), 28px) 21.25px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: calc((288/320*100)*1vw);
+  }
+
+
+}
+

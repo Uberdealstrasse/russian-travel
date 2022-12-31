@@ -1,0 +1,25 @@
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: calc((1184/1280*100)*1vw);
+  }
+
+}
+
+.cover {
+  margin: 92px auto 92px;
+  max-width: 1184px;
+  display: grid;
+  position: relative;
+  grid-template-columns: auto;
+  grid-template-rows: 54% 46%;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 670px) {
+  .cover {
+    margin: 66px auto 64px;
+  }
+}
+
+
+
