@@ -9,7 +9,15 @@
 @media screen and (max-width: 768px) {
   .intro__title {
     font-size: min(max(32px, calc((32/320*100)*1vw)), 54px);
-    line-height: 109%;
+    line-height: 58px;
+    width: min(max(288px, calc((288/320*100)*1vw)), 720px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    
+    line-height: 35px;
   }
 }
 

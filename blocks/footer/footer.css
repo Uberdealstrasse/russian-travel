@@ -1,5 +1,5 @@
 .footer {
-  max-width: calc((1184/1280*100)*1vw);
+  max-width: 1184px;
   
   display: flex;
   margin: 0 auto;
@@ -13,9 +13,18 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: calc((720/768*100)*1vw);
+    padding: 0 0 24px;
+  }
+}
+
+
 @media screen and (max-width: 670px) {
   .footer {
-    max-width: calc((288/320*100)*1vw);
     flex-direction: column;
+    max-width: calc((288/320*100)*1vw);
+    
   }
 }

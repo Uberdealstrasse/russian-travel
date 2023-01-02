@@ -1,8 +1,15 @@
+/* NORMALIZE */
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/Inter/inter.css);
+
+
 /* DARK THEME */
 @import url(../blocks/dark-theme/dark-theme.css);
 /* LINK */
 @import url(../blocks/link/link.css);
-
+/* THIN */
+@import url(../blocks/regular/regular.css);
 
 /* PAGE */
 @import url(../blocks/page/page.css);
@@ -11,6 +18,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 
 /* LEAD */
@@ -44,16 +52,16 @@
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__black/cover__black.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__link/cover__link.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navbar/footer__navbar.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-

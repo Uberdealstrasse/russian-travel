@@ -1,16 +1,16 @@
 .header__lang-link {
+  color: #fff;
   text-align: right;
   font-size: 24px;
   line-height: 28px;
   margin: 0;
-  margin-bottom: 5px;
-  margin-left: 18px;
-  align-self: end;
+  margin-top: 19px;
+  margin-left: 19px;
+  align-self: flex-start;
 
   text-decoration: none;
 }
 .header__lang-link:nth-last-of-type(2) {
-  text-decoration: underline;
   margin-left: auto;
 }
 
@@ -21,7 +21,7 @@
     text-align: right;
     font-size: min(max(18px, calc((18/320*100)*1vw)), 24px);
     line-height: 1.11;
-
+    margin-top: min(max(15px, calc((15/320*100)*1vw)), 19px);
   }
 
   

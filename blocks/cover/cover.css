@@ -1,9 +1,9 @@
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .cover {
     max-width: calc((1184/1280*100)*1vw);
   }
 
-}
+} */
 
 .cover {
   margin: 92px auto 92px;
@@ -11,13 +11,19 @@
   display: grid;
   position: relative;
   grid-template-columns: auto;
-  grid-template-rows: 54% 46%;
+  grid-template-rows: auto;
   text-decoration: none;
+  /* column-gap: 16px; */
+  overflow: hidden;
+  row-gap: 32px;
 }
 
-@media screen and (max-width: 670px) {
+
+
+@media screen and (max-width: 768px) {
   .cover {
-    margin: 66px auto 64px;
+    margin: min(max(66px, calc((66/320*100)*1vw)), 90px) auto min(max(64px, calc((64/320*100)*1vw)), 88px);
+    row-gap: min(max(16px, calc((16/320*100)*1vw)), 32px);
   }
 }
 

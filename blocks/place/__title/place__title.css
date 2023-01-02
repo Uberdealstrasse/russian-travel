@@ -12,28 +12,32 @@
   .place__title {
     max-width: 100%;
     font-size: 7vw;
-    line-height: 1.06;
-    font-weight: 900;
-    align-self: flex-end;
+    
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
   .place__title {
-    width: 100%;
+    width: 97%;
     font-size: min(max(32px, calc((32/320*100)*1vw)), 42px);
     margin: 0 0 min(max(32px, calc((32/320*100)*1vw)), 48px);
-    line-height: 1.09;
+    line-height: 1.1;
     align-self: center;
   }
 }
+@media screen and (max-width: 670px) {
+  .place__title {
+    width: 100%;
+  }
+}
+
+
+
+
 
 @media screen and (max-width: 425px) {
   .place__title {
     width: calc((288/320*100));
-    font-size: min(max(32px, calc((32/320*100)*1vw)), 42px);
-    margin: 0 0 min(max(32px, calc((32/320*100)*1vw)), 48px);
-    line-height: 1.09;
-    align-self: center;
+    line-height: 35px;
   }
 }

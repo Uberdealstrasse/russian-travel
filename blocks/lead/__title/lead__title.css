@@ -14,10 +14,10 @@
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    font-size: calc((96/768*100)*1vw);
-    margin: 0 auto 4.167vw;
-    width: calc((288/320*100)*1vw);
-    /* margin: 0 auto 32px; */
+    font-size: min(max(40px, calc((40/320*100)*1vw)), 96px);
+    width: min(max(288px, calc((288/320*100)*1vw)), 720px);
+    margin: 1px auto 4.167vw;
+    
   }
 
   
@@ -25,18 +25,13 @@
 
 
 
-@media screen and (max-width: 670px) {
-
-
-
-
-
-}
-
-
-
 @media screen and (max-width: 425px) {
-
+  .lead__title {
+    
+    line-height: 1.1;
+    margin-top: 1px;
+    margin-bottom: min(max(16px, calc((16/320*100)*1vw)), 32px);
+  }
 
 
 }
