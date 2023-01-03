@@ -8,8 +8,6 @@
   
   grid-auto-rows: min(max(170.411px, calc((170.411/1024*100)*1vw)), 213px);
   gap: min(max(14px, calc((14/1024*100)*1vw)), 16px);
-  overflow: hidden;
-  
 }
 
 
@@ -46,13 +44,11 @@
 @media screen and (max-width: 425px) {
   .photo-grid {
     max-width: calc((288/320*100)*1vw);
-    min-width: 0;
     margin: min(max(64px, calc((64/320*100)*1vw)), 88px) auto 0;
     justify-content: center;
     grid-template-columns: repeat(1, calc((288/320*100)*1vw));
     grid-auto-rows: min(max(216px, calc((216/320*100)*1vw)), 287px);
     gap: calc((12/320*100)*1vw);
-    padding: 0;
   }
 
 }

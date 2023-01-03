@@ -24,7 +24,7 @@
   .intro {
     margin: min(max(64px, calc((64/320*100)*1vw)), 88px) min(max(21.25px, calc((21.25/425*100)*1vw)), 24px) 0;
     max-width: calc((720/768*100)*1vw);
-    min-width: 0;
+    min-width: 250px;
   }
 }
 

@@ -10,7 +10,7 @@
 @media screen and (max-width: 1024px) {
   .header {
     max-width: calc((928/1024*100)*1vw);
-    margin: 0 auto 48px;
+    margin-bottom: 48px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -19,8 +19,7 @@
 @media screen and (max-width: 768px) {
   .header {
     max-width: calc((720/768*100)*1vw);
-    min-width: 0;
-    margin: 0 auto 48px;
+    min-width: 250px;
     padding: min(max(16px, calc((16/320*100)*1vw)), 28px) 21.25px 0;
   }
 }
