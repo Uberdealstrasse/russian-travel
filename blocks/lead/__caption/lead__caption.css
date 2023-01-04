@@ -23,16 +23,25 @@
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    width: calc((720/768*100)*1vw);
-    min-width: 0;
+    width: calc((720/768*100)*1%);
+    min-width: 250px;
     margin: 8px min(max(21.25px, calc((21.25/425*100)*1vw)), 24px) 0;
 
   }
 }
 
+@media screen and (max-width: 670px) {
+  .lead__caption {
+    margin-left: min(max(21.25px, calc((21.25/425*100)*1vw)), 24px);
+    margin-right: auto;
+  }
+}
+
+
+
 @media screen and (max-width: 425px) {
   .lead__caption {
-    max-width: calc((288/320*100)*1vw);
+    max-width: 90%;
     margin: 8px auto 0;
 
   }

@@ -9,15 +9,15 @@
   text-decoration: none;
   /* column-gap: 16px; */
   overflow: hidden;
-  row-gap: 32px;
+  row-gap: 34px;
 }
 
 
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin: min(max(66px, calc((66/320*100)*1vw)), 90px) auto min(max(64px, calc((64/320*100)*1vw)), 88px);
-    row-gap: min(max(16px, calc((16/320*100)*1vw)), 32px);
+    margin: min(max(66px, calc((66/320*100)*1vw)), 88px) auto min(max(64px, calc((64/320*100)*1vw)), 88px);
+    row-gap: min(max(16px, calc((16/320*100)*1vw)), 30px);
   }
 }
 

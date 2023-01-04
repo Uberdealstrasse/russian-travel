@@ -29,13 +29,12 @@
   .photo-grid {
     max-width: calc((720/768*100)*1vw);
     min-width: 0;
-    /* padding: 0 21.25px 0; */
     margin: 88px min(max(21.25px, calc((21.25/425*100)*1vw)), 24px) 0;
     /* padding: 0 16px 0; */
     display: grid;
     /* grid-template-columns: repeat(auto-fit, 45.8vw); */
     grid-template-columns: repeat(2, minmax(150px, 352px));
-    grid-auto-rows: min(max(146.09px, calc((146.093796/425*100)*1vw)), 255px);
+    grid-auto-rows: min(max(146.09px, calc((146.093796/425*100)*1vw)), 264px);
     gap: calc((16/768*100)*1vw);
   }
 }

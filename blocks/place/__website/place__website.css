@@ -7,16 +7,17 @@
 
 @media screen and (max-width: 670px) {
   .place__website {
-    align-self: center;
-    margin: 0 0 min(max(32px, calc((32/320*100)*1vw)), 48px);
-    width: calc((768/768*100)*1vw);
+    align-self: start;
+    margin: 0 auto min(max(32px, calc((32/320*100)*1vw)), 48px) min(max(21.25px, calc((21.25/425*100)*1vw)), 24px);
+    max-width: calc((720/768*100)*1vw);
+    min-width: 250px;
     }
 }
 
-
-
 @media screen and (max-width: 425px) {
   .place__website {
-    width: 100%;
+    margin-left: min(max(16px, calc((16/320*100)*1vw)), 21.25px);
+    max-width: 90%;
   }
 }
+

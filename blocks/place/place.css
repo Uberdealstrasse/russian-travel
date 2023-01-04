@@ -36,9 +36,8 @@
 
 @media screen and (max-width: 670px) {
   .place {
-    max-width: calc((720/768*100)*1vw);
-    /* padding: 0 48px 0; */
-    margin: 0 min(max(21.25px, calc((21.25/425*100)*1vw)), 24px) 50px;
+    max-width: 100%;
+    margin: 0 0 50px;
     display: flex;
     flex-direction: column;
     justify-items: start;
@@ -54,7 +53,6 @@
 
 @media screen and (max-width: 425px) {
   .place {
-    max-width: calc((288/320*100)*1vw);
-    margin: 0 auto 50px;
+    
   }
 }
